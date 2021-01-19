@@ -1,7 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a7e8519-632a-4456-9bcb-1351f89e5400" name="Default Changelist" comment="" />
+    <list default="true" id="7a7e8519-632a-4456-9bcb-1351f89e5400" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/BrandController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/Brand.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Models/MultiPic.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/image.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_16_103136_create_brands_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_18_093014_create_multi_pics_table.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/brand/1689217485330085.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/brand/1689217516299378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/brand/1689217532788812.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220862610553.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220883375652.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220883910529.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220884471138.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220885347329.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220885797113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689220886662413.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689221204416263.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689221205134888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689221205727296.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222336729323.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222359420547.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222381134724.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222381642075.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222382127147.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222734860204.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222735344649.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689222769567463.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689223660625570.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689223661056629.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689223662013314.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689223947165947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689223947498876.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689223948021192.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689224231303344.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689224644670543.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689224645099702.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689224856904719.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689224857188131.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689224857481313.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225038939947.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225039232590.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225039477066.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225201989366.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225527474031.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225793567677.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689225793900888.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689226384245122.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689226572331207.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689226572591224.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689226572905070.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/image/multi/1689226573165763.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/brand/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/brand/index.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/category/edit.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/admin/multipic/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/CategoryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Category.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Category.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/fortify.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/fortify.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/category/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/navigation-menu.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +87,9 @@
         <option value="composer.json" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -137,17 +210,24 @@
       <path value="$PROJECT_DIR$/vendor/laravel/fortify" />
       <path value="$PROJECT_DIR$/vendor/laravel/sanctum" />
       <path value="$PROJECT_DIR$/vendor/livewire/livewire" />
+      <path value="$PROJECT_DIR$/vendor/intervention/image" />
     </include_path>
   </component>
   <component name="ProjectId" id="1mmFosF5O9IId4U0QNWuteDsKdP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -176,11 +256,32 @@
       <workItem from="1610091049030" duration="453000" />
       <workItem from="1610091861380" duration="12344000" />
       <workItem from="1610167437036" duration="8914000" />
-      <workItem from="1610688249598" duration="1046000" />
+      <workItem from="1610688249598" duration="18614000" />
+      <workItem from="1610774582923" duration="1752000" />
+      <workItem from="1610776927611" duration="17290000" />
+      <workItem from="1610947311005" duration="20437000" />
+      <workItem from="1611030944127" duration="812000" />
+      <workItem from="1611034434587" duration="937000" />
+      <workItem from="1611035573485" duration="3543000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
