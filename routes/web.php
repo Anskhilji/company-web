@@ -40,7 +40,6 @@ Route::get('/category/{id}/permanentDelete',[CategoryController::class,'PDelete'
 Route::get('/category/{id}/softDelete',[CategoryController::class,'SoftDelete'])->name('category.softDelete');
 
 
-
 // Brand Controller
 
 Route::get('brand/all',[BrandController::class,'AllBrand'])->name('all.brand');
@@ -58,10 +57,10 @@ Route::post('multi/add',[BrandController::class,'StoreImg'])->name('multiple.ima
 
 
 
-
-
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 //    $users = User::all();
-    $users = DB::table('users')->get();
-    return view('dashboard',compact('users'));
+//    $users = DB::table('users')->get();
+    return view('admin.index');
 })->name('dashboard');
+
+Route::get('/user/logout',[BrandController::class,'Logout'])->name('user.logout');
