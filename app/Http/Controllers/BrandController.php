@@ -55,7 +55,11 @@ class BrandController extends Controller
             'created_at' => \Illuminate\Support\Carbon::now()
         ]);
 
-        return Redirect()->back()->with('success', 'Brand inserted successfully');
+        $notification = array(
+            'message'=>'Brand inserted successfully',
+            'alert-type'=>'success'
+        );
+        return Redirect()->back()->with($notification);
 
     }
 
@@ -98,15 +102,21 @@ class BrandController extends Controller
                'brand_image'=> $last_img,
                'created_at' => \Illuminate\Support\Carbon::now()
            ]);
-
-           return Redirect()->back()->with('success', 'Brand inserted successfully');
+            $notification = array(
+                'message'=>'Brand inserted successfully',
+                'alert-type'=>'warning'
+            );
+           return Redirect()->back()->with($notification);
        }else{
             Brand::find($id)->update([
                 'brand_name'=> $request->brand_name,
                 'created_at' => \Illuminate\Support\Carbon::now()
             ]);
-
-            return Redirect()->back()->with('success', 'Brand inserted successfully');
+            $notification = array(
+                'message'=>'Brand Updated successfully',
+                'alert-type'=>'info'
+            );
+            return Redirect()->back()->with($notification);
         }
 
     }
@@ -118,14 +128,18 @@ class BrandController extends Controller
         unlink($old_image);
 
         Brand::find($id)->delete();
-        return Redirect()->back()->with('success', 'Brand Deleted successfully');
+        $notification = array(
+            'message'=>'Brand Deleted successfully',
+            'alert-type'=>'error'
+        );
+        return Redirect()->back()->with($notification);
 
     }
 
 //    that is for multiImage all method
     public function MultiPic()
     {
-        $images = MultiPic::paginate(6);
+        $images = MultiPic::get();
         return view('admin.multipic.index',compact('images'));
     }
 

@@ -62,7 +62,11 @@
                 <div class="card-body p-5">
 
                     <h4 class="text-dark mb-5">Sign In</h4>
-
+                    @if(session()->has('success'))
+                        <div class="alert alert-success" role="alert">
+                           {{session('success')}}
+                        </div>
+                    @endif
                     <form method="POST" action="{{ route('login') }}">
                         @csrf
                     <div class="row">
